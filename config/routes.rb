@@ -1,6 +1,6 @@
 MyJqueryV6Demo::Application.routes.draw do
   root to: "pictures#index"
-  resources :pictures, :only => [:index, :create, :destroy]
+  resources :pictures, :only => [:index, :create, :destroy, :new]
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
